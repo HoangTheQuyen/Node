@@ -36,6 +36,8 @@ app.get('/*', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
+console.log('aaa')
+
 
 // Start server
 const server = app.listen(3000, () => {
